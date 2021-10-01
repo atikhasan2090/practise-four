@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px){
+	.feature .container .content-box,.contact .container .content-left,.contact .container .content-right{
+		width: 100%;
+		display: inline-block;
+		padding: 10px;
+	}
+
+	.contact .container{
+		padding: 10px;
+	}
+
+	.header .banner .content h1{
+		font-size: 70px;
+	}
+	.header .banner .content h4{
+		font-size: 30px;
+	}
+	.header .banner .content{
+		width: 600px;
+	}
+	.header .banner .content a{
+		padding: 15px 40px;
+	}
+
+
+	
+}

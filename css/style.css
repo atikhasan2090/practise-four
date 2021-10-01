@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 0.5s ease;
+}
+
+.header{
+    background-image: linear-gradient(180deg, #2ee6a278, white);
+}
+.header .menubar{
+    text-align: center;
+    box-shadow: 0px 0px 19px black;
+    padding: 12px;
+}
+.header .menubar ul{}
+.header .menubar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+.header .menubar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.header .menubar ul li:hover{
+    background: #6cf9c6;
+}
+
+.header .banner{
+    height: 640px;
+    position: relative;
+    background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header .banner .content{
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(0%, -50%);
+    width: 878px;
+    margin-left: 70px;
+}
+.header .banner .content h1{
+    font-size: 100px;
+    font-weight: 100;
+}
+.header .banner .content h4{
+    font-size: 45px;
+    font-weight: 100;
+}
+.header .banner .content a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 40px 10px;
+    padding: 18px 58px;
+    background: black;
+    font-size: 23px;
+    box-shadow: 10px 10px 7px gray;
+    border-radius: 5px;
+}
+.header .banner .content a:hover{}
+
+
+.feature{}
+.feature h1{
+    text-align: center;
+    font-size: 65px;
+}
+.feature .container{
+    overflow: hidden;
+    padding: 50px;
+}
+.feature .container .content-box{
+    width: 33.33%;
+    float: left;
+    padding: 40px;
+}
+.feature .container .content-box .content{padding: 30px;box-shadow: 0px 0px 5px gray;border-radius: 15px;}
+
+.feature .container .content-box .content:hover{
+    
+box-shadow: 0px 0px 15px grey;
+}
+.feature .container .content-box .content h3{
+    font-size: 30px;
+    text-align: center;
+}
+.feature .container .content-box .content p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.about{}
+.about h1{
+    text-align: center;
+    font-size: 65px;
+    padding: 20px;
+}
+.about p{
+    box-shadow: 0px 0px 5px gray;
+    font-size: 24px;
+    padding: 40px;
+    width: 94vw;
+    margin: auto;
+    text-align: justify;
+    border-radius: 15px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+
+.contact{
+    margin: 70px 0px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 65px;
+}
+.contact .container{
+    overflow: hidden;
+    padding: 0px 100px;
+    padding-top: 30px;
+}
+
+.contact .container .content-left{
+    float: left;
+    width: 40%;
+    padding: 30px 30px;
+    height: 285px;
+}
+.contact .container .content-left .left{
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 0px 0px 5px gray;
+    padding: 60px 30px;
+    border-radius: 20px;
+}
+.contact .container .content-left .left h3{
+    /* font-weight: 100; */
+}
+.contact .container .content-right{
+    float: left;
+    padding: 30px;
+    width: 60%;
+    height: 285px;
+}
+.contact .container .content-right .right{
+    height: 100%;
+}
+.contact .container .content-right .right iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+
+footer{
+    padding: 20px;
+    background: #afafaf;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+footer p a{
+    text-decoration: none;
+}
